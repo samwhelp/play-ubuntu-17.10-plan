@@ -51,6 +51,8 @@ run_fcitx_conf_set () {
 
 	#cat "$THE_FCITX_CONF_MAIN_FILE_PATH"
 
+	im-config -n fcitx
+
 	fcitx-remote -r
 
 }

@@ -55,6 +55,8 @@ run_fcitx_conf_reset () {
 
 	#cat "$THE_FCITX_CONF_MAIN_FILE_PATH"
 
+	#im-config -n REMOVE
+
 	fcitx-remote -r
 
 }
