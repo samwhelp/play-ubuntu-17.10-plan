@@ -17,13 +17,15 @@ Ex:
 $ make
 $ make help
 
-$ make serve
+$ make prepare
 
 $ make deb-build
 $ make deb-clean
 
 $ make deb-install
 $ make deb-remove
+
+$ make serve
 
 EOF
 }

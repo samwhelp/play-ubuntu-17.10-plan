@@ -1,4 +1,8 @@
 
+prepare:
+	@prepare.sh
+.PHONY: prepare
+
 deb-build:
 	@deb-build.sh
 .PHONY: deb-build
